@@ -7,25 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DF1139E5221D08A30043EDE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1139E4221D08A30043EDE9 /* AppDelegate.swift */; };
-		DF1139E7221D08A30043EDE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1139E6221D08A30043EDE9 /* ViewController.swift */; };
-		DF1139EA221D08A30043EDE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF1139E8221D08A30043EDE9 /* Main.storyboard */; };
-		DF1139EC221D08A40043EDE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF1139EB221D08A40043EDE9 /* Assets.xcassets */; };
-		DF1139EF221D08A40043EDE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF1139ED221D08A40043EDE9 /* LaunchScreen.storyboard */; };
+		DF1F75D4221ED11A00B52D93 /* LoginVC+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1F75D3221ED11A00B52D93 /* LoginVC+extension.swift */; };
+		DF1F75D6221ED55A00B52D93 /* OfflineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1F75D5221ED55A00B52D93 /* OfflineViewController.swift */; };
+		DFB50E12221D51C700003872 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB50E11221D51C700003872 /* AppDelegate.swift */; };
+		DFB50E14221D51C700003872 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB50E13221D51C700003872 /* LoginVC.swift */; };
+		DFB50E17221D51C700003872 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFB50E15221D51C700003872 /* Main.storyboard */; };
+		DFB50E19221D51C800003872 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFB50E18221D51C800003872 /* Assets.xcassets */; };
+		DFB50E1C221D51C800003872 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFB50E1A221D51C800003872 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DF1139E1221D08A30043EDE9 /* AfricaPerspectives.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AfricaPerspectives.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF1139E4221D08A30043EDE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DF1139E6221D08A30043EDE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DF1139E9221D08A30043EDE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DF1139EB221D08A40043EDE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DF1139EE221D08A40043EDE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DF1139F0221D08A40043EDE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF1F75D3221ED11A00B52D93 /* LoginVC+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginVC+extension.swift"; sourceTree = "<group>"; };
+		DF1F75D5221ED55A00B52D93 /* OfflineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineViewController.swift; sourceTree = "<group>"; };
+		DFB50E0E221D51C700003872 /* AfricaPerspectives.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AfricaPerspectives.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFB50E11221D51C700003872 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DFB50E13221D51C700003872 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		DFB50E16221D51C700003872 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFB50E18221D51C800003872 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFB50E1B221D51C800003872 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DFB50E1D221D51C800003872 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DF1139DE221D08A30043EDE9 /* Frameworks */ = {
+		DFB50E0B221D51C700003872 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,71 +39,121 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DF1139D8221D08A30043EDE9 = {
+		DF77CEA1221EEFEE00722B0E /* LoginScreen */ = {
 			isa = PBXGroup;
 			children = (
-				DF1139E3221D08A30043EDE9 /* AfricaPerspectives */,
-				DF1139E2221D08A30043EDE9 /* Products */,
+				DFB50E13221D51C700003872 /* LoginVC.swift */,
+				DF1F75D3221ED11A00B52D93 /* LoginVC+extension.swift */,
+			);
+			path = LoginScreen;
+			sourceTree = "<group>";
+		};
+		DFB50E05221D51C700003872 = {
+			isa = PBXGroup;
+			children = (
+				DFB50E10221D51C700003872 /* AfricaPerspectives */,
+				DFB50E0F221D51C700003872 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		DF1139E2221D08A30043EDE9 /* Products */ = {
+		DFB50E0F221D51C700003872 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DF1139E1221D08A30043EDE9 /* AfricaPerspectives.app */,
+				DFB50E0E221D51C700003872 /* AfricaPerspectives.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DF1139E3221D08A30043EDE9 /* AfricaPerspectives */ = {
+		DFB50E10221D51C700003872 /* AfricaPerspectives */ = {
 			isa = PBXGroup;
 			children = (
-				DF1139E4221D08A30043EDE9 /* AppDelegate.swift */,
-				DF1139E6221D08A30043EDE9 /* ViewController.swift */,
-				DF1139E8221D08A30043EDE9 /* Main.storyboard */,
-				DF1139EB221D08A40043EDE9 /* Assets.xcassets */,
-				DF1139ED221D08A40043EDE9 /* LaunchScreen.storyboard */,
-				DF1139F0221D08A40043EDE9 /* Info.plist */,
+				DFB50E11221D51C700003872 /* AppDelegate.swift */,
+				DFF6C18A2221DA4E002DA69C /* ViewGroup */,
+				DFB50E18221D51C800003872 /* Assets.xcassets */,
+				DFB50E1D221D51C800003872 /* Info.plist */,
 			);
 			path = AfricaPerspectives;
+			sourceTree = "<group>";
+		};
+		DFF6C1862221D929002DA69C /* MainScreenOffline */ = {
+			isa = PBXGroup;
+			children = (
+				DF1F75D5221ED55A00B52D93 /* OfflineViewController.swift */,
+			);
+			path = MainScreenOffline;
+			sourceTree = "<group>";
+		};
+		DFF6C1872221D99B002DA69C /* MainScreenOnline */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MainScreenOnline;
+			sourceTree = "<group>";
+		};
+		DFF6C1882221D9A6002DA69C /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				DFF6C1872221D99B002DA69C /* MainScreenOnline */,
+				DFF6C1862221D929002DA69C /* MainScreenOffline */,
+			);
+			path = MainScreen;
+			sourceTree = "<group>";
+		};
+		DFF6C1892221DA2F002DA69C /* DataWriteScreen */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataWriteScreen;
+			sourceTree = "<group>";
+		};
+		DFF6C18A2221DA4E002DA69C /* ViewGroup */ = {
+			isa = PBXGroup;
+			children = (
+				DFB50E15221D51C700003872 /* Main.storyboard */,
+				DFB50E1A221D51C800003872 /* LaunchScreen.storyboard */,
+				DF77CEA1221EEFEE00722B0E /* LoginScreen */,
+				DFF6C1892221DA2F002DA69C /* DataWriteScreen */,
+				DFF6C1882221D9A6002DA69C /* MainScreen */,
+			);
+			path = ViewGroup;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DF1139E0221D08A30043EDE9 /* AfricaPerspectives */ = {
+		DFB50E0D221D51C700003872 /* AfricaPerspectives */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DF1139F3221D08A40043EDE9 /* Build configuration list for PBXNativeTarget "AfricaPerspectives" */;
+			buildConfigurationList = DFB50E20221D51C800003872 /* Build configuration list for PBXNativeTarget "AfricaPerspectives" */;
 			buildPhases = (
-				DF1139DD221D08A30043EDE9 /* Sources */,
-				DF1139DE221D08A30043EDE9 /* Frameworks */,
-				DF1139DF221D08A30043EDE9 /* Resources */,
+				DFB50E0A221D51C700003872 /* Sources */,
+				DFB50E0B221D51C700003872 /* Frameworks */,
+				DFB50E0C221D51C700003872 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = AfricaPerspectives;
-			productName = AfricaPerspectives;
-			productReference = DF1139E1221D08A30043EDE9 /* AfricaPerspectives.app */;
+			productName = TodolistApp;
+			productReference = DFB50E0E221D51C700003872 /* AfricaPerspectives.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DF1139D9221D08A30043EDE9 /* Project object */ = {
+		DFB50E06221D51C700003872 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Seoungwoo Do";
 				TargetAttributes = {
-					DF1139E0221D08A30043EDE9 = {
+					DFB50E0D221D51C700003872 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
-			buildConfigurationList = DF1139DC221D08A30043EDE9 /* Build configuration list for PBXProject "AfricaPerspectives" */;
+			buildConfigurationList = DFB50E09221D51C700003872 /* Build configuration list for PBXProject "AfricaPerspectives" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -107,54 +161,56 @@
 				en,
 				Base,
 			);
-			mainGroup = DF1139D8221D08A30043EDE9;
-			productRefGroup = DF1139E2221D08A30043EDE9 /* Products */;
+			mainGroup = DFB50E05221D51C700003872;
+			productRefGroup = DFB50E0F221D51C700003872 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DF1139E0221D08A30043EDE9 /* AfricaPerspectives */,
+				DFB50E0D221D51C700003872 /* AfricaPerspectives */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DF1139DF221D08A30043EDE9 /* Resources */ = {
+		DFB50E0C221D51C700003872 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF1139EF221D08A40043EDE9 /* LaunchScreen.storyboard in Resources */,
-				DF1139EC221D08A40043EDE9 /* Assets.xcassets in Resources */,
-				DF1139EA221D08A30043EDE9 /* Main.storyboard in Resources */,
+				DFB50E1C221D51C800003872 /* LaunchScreen.storyboard in Resources */,
+				DFB50E19221D51C800003872 /* Assets.xcassets in Resources */,
+				DFB50E17221D51C700003872 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DF1139DD221D08A30043EDE9 /* Sources */ = {
+		DFB50E0A221D51C700003872 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF1139E7221D08A30043EDE9 /* ViewController.swift in Sources */,
-				DF1139E5221D08A30043EDE9 /* AppDelegate.swift in Sources */,
+				DF1F75D6221ED55A00B52D93 /* OfflineViewController.swift in Sources */,
+				DF1F75D4221ED11A00B52D93 /* LoginVC+extension.swift in Sources */,
+				DFB50E14221D51C700003872 /* LoginVC.swift in Sources */,
+				DFB50E12221D51C700003872 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DF1139E8221D08A30043EDE9 /* Main.storyboard */ = {
+		DFB50E15221D51C700003872 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DF1139E9221D08A30043EDE9 /* Base */,
+				DFB50E16221D51C700003872 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		DF1139ED221D08A40043EDE9 /* LaunchScreen.storyboard */ = {
+		DFB50E1A221D51C800003872 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DF1139EE221D08A40043EDE9 /* Base */,
+				DFB50E1B221D51C800003872 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -162,7 +218,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		DF1139F1221D08A40043EDE9 /* Debug */ = {
+		DFB50E1E221D51C800003872 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -223,7 +279,7 @@
 			};
 			name = Debug;
 		};
-		DF1139F2221D08A40043EDE9 /* Release */ = {
+		DFB50E1F221D51C800003872 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -278,13 +334,13 @@
 			};
 			name = Release;
 		};
-		DF1139F4221D08A40043EDE9 /* Debug */ = {
+		DFB50E21221D51C800003872 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XG6C4T3BPU;
-				INFOPLIST_FILE = AfricaPerspectives/Info.plist;
+				INFOPLIST_FILE = TodolistApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,13 +352,13 @@
 			};
 			name = Debug;
 		};
-		DF1139F5221D08A40043EDE9 /* Release */ = {
+		DFB50E22221D51C800003872 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XG6C4T3BPU;
-				INFOPLIST_FILE = AfricaPerspectives/Info.plist;
+				INFOPLIST_FILE = TodolistApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -317,25 +373,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DF1139DC221D08A30043EDE9 /* Build configuration list for PBXProject "AfricaPerspectives" */ = {
+		DFB50E09221D51C700003872 /* Build configuration list for PBXProject "AfricaPerspectives" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DF1139F1221D08A40043EDE9 /* Debug */,
-				DF1139F2221D08A40043EDE9 /* Release */,
+				DFB50E1E221D51C800003872 /* Debug */,
+				DFB50E1F221D51C800003872 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DF1139F3221D08A40043EDE9 /* Build configuration list for PBXNativeTarget "AfricaPerspectives" */ = {
+		DFB50E20221D51C800003872 /* Build configuration list for PBXNativeTarget "AfricaPerspectives" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DF1139F4221D08A40043EDE9 /* Debug */,
-				DF1139F5221D08A40043EDE9 /* Release */,
+				DFB50E21221D51C800003872 /* Debug */,
+				DFB50E22221D51C800003872 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = DF1139D9221D08A30043EDE9 /* Project object */;
+	rootObject = DFB50E06221D51C700003872 /* Project object */;
 }

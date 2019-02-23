@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  AfricaPerspectives
+//  TodolistApp
 //
 //  Created by Seoungwoo Do on 20/02/2019.
 //  Copyright © 2019 Seoungwoo Do. All rights reserved.
@@ -16,6 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        UIApplication.shared.statusBarStyle = .lightContent
         return true
     }
 
